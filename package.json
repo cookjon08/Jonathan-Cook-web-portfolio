@@ -1,0 +1,38 @@
+{
+  "name": "web-portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/cookjon08/Jonathan-Cook-web-portfolio-copy.git",
+  "author": "<cook.jon08@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "@fortawesome/free-brands-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons-kit": "^2.0.0",
+    "react-player": "^2.16.0",
+    "react-router-dom": "^6.25.1",
+    "react-scripts": "^5.0.1",
+    "styled-components": "^6.1.12"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start-mac": "PORT=3005 react-scripts start",
+    "start-windows": "set PORT=3005 && react-scripts start",
+    "build": "react-scripts build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
